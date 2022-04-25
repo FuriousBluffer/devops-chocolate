@@ -4,7 +4,7 @@ pipeline {
         stage("build") {
             steps {
                 echo 'running build'
-//                 sh 'python sniffle'
+                sh 'python sniffle.py'
             }
         }
     }
