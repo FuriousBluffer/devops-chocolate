@@ -1,12 +1,11 @@
-pipeline { 
-agent any 
-    stages { 
-        stage ('Build') { 
-            steps { 
-              sh "python sniffle.py"
-                    echo 'Running build phase. '
-              
-                }
+pipeline {
+    agent any
+    stages {
+        stage("build") {
+            steps {
+                echo 'running build'
+                sh 'python sniffle'
+            }
         }
     }
 }
