@@ -1,3 +1,3 @@
-print("Manish Kumar")
-print("E19CSE102")
-print("EB06")
+print("Mehul Tyagi")
+print("E19CSE085")
+print("EB05")
